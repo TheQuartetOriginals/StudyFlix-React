@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import '../css/loginPage.css'; 
-import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap-icons/font/bootstrap-icons.css";
+import "../css/bootstrap-imports.css"
 
 function LoginPage() {
   const navigate = useNavigate();
@@ -13,10 +12,7 @@ function LoginPage() {
   const handleLogin = (e) => {
     e.preventDefault();
 
-    // Add your authentication logic here
-    // For simplicity, assume the login is successful if the email and password are not empty.
     if (email && password) {
-      // Redirect to the home page
       navigate('/home');
     } else {
       alert('Please enter valid credentials');
@@ -41,7 +37,7 @@ function LoginPage() {
                 id="email"
                 placeholder="Email or phone number"
                 value={email}
-                onChange={(e) => setEmail(e.target.value)}  // handle email change
+                onChange={(e) => setEmail(e.target.value)}  
               />
             </div>
             <div className="form-group position-relative">
@@ -52,7 +48,7 @@ function LoginPage() {
                 id="password"
                 placeholder="Password"
                 value={password}
-                onChange={(e) => setPassword(e.target.value)}  // handle password change
+                onChange={(e) => setPassword(e.target.value)}   
               />
             </div>
             <button

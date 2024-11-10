@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import "../css/videoPlayer.css";
 import { videoData } from "../AdditionalData/videoData";
-import "bootstrap-icons/font/bootstrap-icons.css";
+import "../css/bootstrap-imports.css"
 
 function VideoPlayer() {
   const { course } = useParams();

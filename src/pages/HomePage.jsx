@@ -1,13 +1,11 @@
-import { Swiper, SwiperSlide } from "swiper/react";
 import "../css/homePage.css";
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap-icons/font/bootstrap-icons.css";
-import { Navigation, Pagination } from "swiper/modules";
-import { useNavigate } from "react-router-dom";
+import "../css/bootstrap-imports.css"
 import { videoData } from "../AdditionalData/videoData";
+import { useNavigate } from "react-router-dom";
+
+import { Swiper, SwiperSlide } from "swiper/react";
+import "../css/swiper-import.css"
+import { Navigation, Pagination } from "swiper/modules";
 
 function HomePage() {
   const navigate = useNavigate();
@@ -200,7 +198,7 @@ function HomePage() {
                 />
                 <div className="card-body">
                   <button
-                    onClick={() => handleVideoClick("ohIAiuHMKMI")}
+                    onClick={() => handleVideoClick("piyushGarg")}
                     className="play-button position-absolute"
                   >
                     <i className="bi bi-play-circle-fill" />

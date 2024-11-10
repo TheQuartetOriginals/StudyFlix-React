@@ -174,7 +174,7 @@ export const videoData = {
   },
   codeWithHarry: {
     mainVideo: {
-      url: "https://www.youtube.com/embed/y3OOaXrFy-Q?list=PLQEaRBV9gAFu4ovJ41PywklqI7IyXwr01",
+      url: "https://www.youtube.com/embed/tVzUXW6siu0?list=PLu0W_9lII9agq5TrH9XLIKQvv0iaF2X3w",
       title: "Web Development | Code with Harry",
       author: "Code with Harry",
       date: "20 Sept 2023",
@@ -185,17 +185,17 @@ export const videoData = {
       {
         url: "https://www.youtube.com/embed/7wnove7K-ZQ?list=PLu0W_9lII9agwh1XjRt242xIpHhPT2llg",
         thumbnail: "https://img.youtube.com/vi/7wnove7K-ZQ/mqdefault.jpg",
-        title: "Learn Python Programming with Code with Harry",
+        title: "Learn Python Programming",
       },
       {
-        url: "https://www.youtube.com/watch?v=Hj65ck-hsc8",
-        thumbnail: "https://img.youtube.com/vi/Hj65ck-hsc8/maxresdefault.jpg",
-        title: "HTML CSS JavaScript Tutorial by Code with Harry",
+        url: "https://www.youtube.com/embed/6mbwJ2xhgzM?list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg",
+        thumbnail: "https://img.youtube.com/vi/6mbwJ2xhgzM/mqdefault.jpg",
+        title: "HTML CSS JavaScript Tutorial",
       },
       {
-        url: "https://www.youtube.com/watch?v=KHbf5-BV5xA",
-        thumbnail: "https://img.youtube.com/vi/KHbf5-BV5xA/maxresdefault.jpg",
-        title: "Learn Web Development with Code with Harry",
+        url: "https://www.youtube.com/embed/BP-w99ZINTc?list=PLu0W_9lII9aiS4rUVp2jXwIvCruo27sG6",
+        thumbnail: "https://img.youtube.com/vi/BP-w99ZINTc/mqdefault.jpg",
+        title: "Generative AI Series",
       }
     ],
     relatedContent: [
@@ -231,60 +231,64 @@ export const videoData = {
       }
     ]
   },  
-  pythonBasics: {
+  piyushGarg: {
     mainVideo: {
-      url: "https://www.youtube.com/embed/_uQrJ0TkZlc",
-      title: "Python Tutorial for Beginners",
-      author: "Programming with Mosh",
-      date: "10 Oct 2023",
-      rating: 4.5,
+      url: "https://www.youtube.com/embed/ohIAiuHMKMI?list=PLinedj3B30sDby4Al-i13hQJGQoRQDfPo",
+      title: "What is Node Js?",
+      author: "Piyush Garg",
+      date: "3 Jan 2023",
+      rating: 3,
+      genre: ["Programming Tutorials", "Web Development", "Node"]
     },
     relatedVideos: [
       {
-        url: "https://www.youtube.com/watch?v=rfscVS0vtbw",
-        thumbnail: "https://img.youtube.com/vi/rfscVS0vtbw/maxresdefault.jpg",
-        title: "Python Full Course for Beginners",
+        url: "https://www.youtube.com/embed/7wnove7K-ZQ?list=PLu0W_9lII9agwh1XjRt242xIpHhPT2llg",
+        thumbnail: "https://img.youtube.com/vi/7wnove7K-ZQ/mqdefault.jpg",
+        title: "Learn Python Programming",
       },
+      {
+        url: "https://www.youtube.com/embed/6mbwJ2xhgzM?list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg",
+        thumbnail: "https://img.youtube.com/vi/6mbwJ2xhgzM/mqdefault.jpg",
+        title: "HTML CSS JavaScript Tutorial",
+      },
+      {
+        url: "https://www.youtube.com/embed/BP-w99ZINTc?list=PLu0W_9lII9aiS4rUVp2jXwIvCruo27sG6",
+        thumbnail: "https://img.youtube.com/vi/BP-w99ZINTc/mqdefault.jpg",
+        title: "Generative AI Series",
+      }
     ],
     relatedContent: [
       {
-        title: "Python Crash Course",
-        description: "An in-depth crash course to get you started with Python.",
-        link: "https://realpython.com/python-basics/",
+        title: "Complete Python Tutorial by Code with Harry",
+        description: "A full-length Python course to take you from beginner to advanced level.",
+        link: "https://www.youtube.com/watch?v=rfscVS0vtbw"
       },
       {
-        title: "Python Programming",
-        description: "A guide to learning Python from the basics.",
-        link: "https://www.learnpython.org/",
-      },
-    ],
-  },
-  javascriptEssentials: {
-    mainVideo: {
-      url: "https://www.youtube.com/embed/W6NZfCO5SIk",
-      title: "JavaScript Basics for Beginners",
-      author: "Programming with Mosh",
-      date: "15 Nov 2023",
-      rating: 4.7,
-    },
-    relatedVideos: [
-      {
-        url: "https://www.youtube.com/watch?v=PkZNo7MFNFg",
-        thumbnail: "https://img.youtube.com/vi/PkZNo7MFNFg/maxresdefault.jpg",
-        title: "JavaScript Full Course for Beginners",
-      },
-    ],
-    relatedContent: [
-      {
-        title: "JavaScript Guide",
-        description: "Understand the fundamentals of JavaScript.",
-        link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
+        title: "JavaScript Tutorials for Beginners",
+        description: "A comprehensive guide to learning JavaScript programming.",
+        link: "https://www.codewithharry.com/videos/javascript-tutorials-in-hindi-1"
       },
       {
-        title: "Learn JavaScript Basics",
-        description: "Interactive JavaScript tutorials.",
-        link: "https://www.codecademy.com/learn/introduction-to-javascript",
+        title: "Web Development Course",
+        description: "An in-depth course covering HTML, CSS, and JavaScript for web development.",
+        link: "https://www.codewithharry.com/videos/web-development-tutorials-in-hindi-1"
       },
-    ],
-  },
+      {
+        title: "Data Structures and Algorithms",
+        description: "Understand the fundamentals of DSA with tutorials and code examples.",
+        link: "https://www.codewithharry.com/dsa"
+      },
+      {
+        title: "React JS for Beginners",
+        description: "Learn React JS from scratch with practical projects.",
+        link: "https://react.dev/"
+      },
+      {
+        title: "Complete Guide to Python Programming",
+        description: "A detailed guide to mastering Python, including libraries and frameworks.",
+        link: "https://www.geeksforgeeks.org/python-programming-language/"
+      }
+    ]
+  },  
+  
 };

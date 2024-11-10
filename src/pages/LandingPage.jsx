@@ -1,18 +1,17 @@
 import '../css/landing.css';
+import "../css/bootstrap-imports.css"
+
 import React, {useEffect} from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap-icons/font/bootstrap-icons.css";
-import { useNavigate } from 'react-router-dom'; // Import useNavigate from react-router-dom
+import { useNavigate } from 'react-router-dom'; 
 
 function LandingPage() {
-  const navigate = useNavigate(); // Initialize the navigate function
+  const navigate = useNavigate(); 
 
   const handleSignIn = () => {
-    navigate('/login'); // Redirect to LoginPage
+    navigate('/login'); 
   };
 
   useEffect(() => {
-    // Email Validation and Form Submission
     const emailInput = document.getElementById('email');
     const form = document.querySelector('.email_signup');
 
@@ -36,7 +35,6 @@ function LandingPage() {
       document.body.appendChild(errorElement);
     }
 
-    // Smooth Scroll for Navigation Links
     const navLinks = document.querySelectorAll('nav a');
 
     navLinks.forEach(link => {
@@ -48,7 +46,6 @@ function LandingPage() {
       });
     });
 
-    // Accordion Item Click Event
     const accordionItems = document.querySelectorAll('.accordion li');
 
     accordionItems.forEach(item => {
@@ -58,7 +55,6 @@ function LandingPage() {
       });
     });
 
-    // Scroll Animation
     function isInViewport(element) {
       const rect = element.getBoundingClientRect();
       return (
@@ -82,7 +78,6 @@ function LandingPage() {
     window.addEventListener('scroll', handleScrollAnimation);
     document.addEventListener('DOMContentLoaded', handleScrollAnimation);
 
-    // Clean up event listeners when component unmounts
     return () => {
       window.removeEventListener('scroll', handleScrollAnimation);
       document.removeEventListener('DOMContentLoaded', handleScrollAnimation);
